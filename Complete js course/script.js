@@ -66,5 +66,52 @@
 // console.log(parseInt("a"))
 
 
-
+  
+// This is in java script
  
+// console.log(this)
+
+//Array in  the Java Script
+
+
+var  name  =new Array("Rajasthan","Delhi","Mumbai")
+
+console.log(typeof name)
+
+console.log(name[0])
+
+//printing the size of the array
+console.log(name.length); 
+
+name[0]="Punjab"
+
+console.log(name)
+
+//last element
+console.log(name[name.length-1])
+
+name.pop()
+console.log(name)
+
+// remove first element
+
+//adding the value at front
+name.unshift("vishu chhabra")
+console.log(name)
+
+//removing the first value by shifting all 
+name.shift()
+console.log(name)
+
+//getting the indexing
+
+console.log(name.indexOf("Punjab"))
+
+//includes function
+console.log(name.includes('this'))
+    
+console.log(name.includes('Punjab'))
+ 
+
+t ="vishu chhabra"
+console.log(Array.from(t))
