@@ -21,15 +21,21 @@ const User = function(name){
 
 // Also  we can define method outside the object
 
-//also  arrow function are not working here
+//also  arrow function are not working here 
 User.prototype.printing = function (){
+
     console.log(`yeah proto  is working for ${this.name}`)
 }
 
 var test = new User("vishu chhabra")
-
+ 
 console.log(test)
 
 //priting the name
 test.print() 
-test.printing()
+
+//checking condtion that name is existing or not
+if(test.hasOwnProperty("name")){
+    //if property exost then only we will print this one
+    test.printing() 
+}
