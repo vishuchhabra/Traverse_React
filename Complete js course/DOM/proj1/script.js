@@ -15,6 +15,7 @@ setInterval(()=>{
 },1)
 
 
+
 //set time out
 setTimeout(()=>{
         followers.innerHTML ="Followers on  Instgram"
